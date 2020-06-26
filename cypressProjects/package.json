@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "this is package json file we are creating",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "runTest": "npm run test --"
+  },
+  "author": "Gloriose",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^2.4.0"
+  },
+  "devDependencies": {
+    "cypress": "^4.8.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
