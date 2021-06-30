@@ -1,5 +1,9 @@
 {
   "pageLoadTimeout": 60000,
   "projectId": "4m4bu3",
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.feature",
+  "reporter":"junit",
+  "reporterOptions":{
+  "mochaFile": "results/my-test-output-[hash].xml"
+  }
 }
